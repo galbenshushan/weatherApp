@@ -1,0 +1,40 @@
+.footer-design{
+    width: 100%;
+    height: 7rem;
+    transition: 1s;
+}
+
+.footer-list{
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 200%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    width: fit-content;
+}
+a:hover{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    transition:  10s !important;
+}
+
+.after-footer-copyright{
+    float:right;
+}
+
+.after-footer-icons{
+    float:left; 
+    font-size: 3rem; 
+}
+
+.footer-icon{
+    border-radius:20%;
+}
+.footer-icon:hover{
+    transform:rotate(1turn);
+    transition: 1s;
+}
